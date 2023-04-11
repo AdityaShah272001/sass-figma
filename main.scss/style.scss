@@ -333,14 +333,22 @@ header {
 
         }
     }
-
-
-
 }
 
+// banner end
+//Royalty start
+.Royalty {
+    background-color: #0E0D10;
+    text-align: center;
+}
+
+//Royalty end
+// strength start
 .strength {
     position: relative;
     text-align: center;
+    background-color: #171819;
+    padding: 100px 0px 60px 0px;
 
     .left-bg {
         position: absolute;
@@ -353,7 +361,6 @@ header {
     //     top: -125px;
     //     right: 0;
     // }
-
     .strength-heading {
         text-align: center;
         margin-bottom: 20px;
@@ -373,8 +380,6 @@ header {
         margin: 50px 0px;
         font-family: "Forum";
     }
-
-
 
     .rect-box {
         @include flexprob;
@@ -419,22 +424,13 @@ header {
     .heading-icon:hover {
         transform: scale(-1) rotate(180deg);
     }
-
-
 }
-
 
 .img-setlength {
     width: 10%;
     max-width: 100%;
     margin: 0px auto;
     display: block;
-}
-
-
-.strength {
-    background-color: #171819;
-    padding: 100px 0px 60px 0px;
 }
 
 .heading span,
@@ -469,10 +465,6 @@ header {
         color: #fff;
         cursor: pointer;
     }
-
-
-
-
 
     @keyframes rotate {
         from {
