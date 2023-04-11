@@ -269,6 +269,37 @@ header .sec-header .mainsec-header .third {
 .Royalty {
   background-color: #0E0D10;
   text-align: center;
+  padding: 100px 0px 100px 0px;
+  margin-top: -80px;
+}
+.Royalty .flavour span {
+  color: #e4c58f;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  line-height: 1em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.Royalty .heading-royalty h4 {
+  background: none;
+  color: #fff;
+  font-family: "Forum", cursive;
+  font-weight: 500;
+  line-height: 1.2em;
+  font-size: 44px;
+}
+.Royalty .heading-royalty p {
+  color: #fff;
+  font-family: "Forum", cursive;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.85em;
+  margin-bottom: 100px;
+}
+.Royalty .maincake-img {
+  display: flex;
+  justify-content: space-between;
 }
 
 .strength {
